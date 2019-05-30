@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+	#navbar-nav {
+		display: none;
+		ul {
+			width: 20%;
+			margin-right: auto;
+			flex-direction: column;
+		}
+	}
+
+	.burger-menu {
+		 display: block;
+	}
+}

@@ -75,7 +75,7 @@ const Form = ({ history }) => {
 	};
 
 	return (
-		<div className='container-fluid bg-pinkish' style={{ height: '88vh' }}>
+		<div className='bg-pinkish'>
 			<div className='customform' id='id01'>
 				<form
 					className='customform-content animate'

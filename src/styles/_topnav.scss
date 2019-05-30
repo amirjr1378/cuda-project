@@ -1,33 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia');
-@import "./variables";
+@import './variables';
 
+.top-nav nav {
+	background: $purple !important;
+	padding: 0 100px;
+    width: 100vw;
+	a {
+		cursor: pointer;
+		font-size: 20px;
+	}
+	.navbar-brand {
+		font-family: Sofia;
+		font-size: 50px;
+	}
 
-.top-nav nav{
-    background: $purple !important;
-    padding: 0 100px;
-
-
-
-    a {
-        cursor:pointer;
-        font-size:20px;
-    }
-    .navbar-brand {
-        font-family:Sofia;
-        font-size: 50px;
-    }
-
-    .navbar-nav li {
-        margin-left: 10px;
-        text-transform: capitalize;
-        letter-spacing: 2px;
-    }
-    .navbar-nav li.nav-item a.active {
-        background:rgba(0,0,0,.3);
-        border-radius: 5px;
-    }
-
+	.navbar-nav li {
+		margin-left: 10px;
+		text-transform: capitalize;
+		letter-spacing: 2px;
+	}
+	.navbar-nav li.nav-item a.active {
+		background: rgba(0, 0, 0, 0.3);
+		border-radius: 5px;
+	}
 }
-.top-nav {
-    margin-bottom:85px !important;
-}
+
