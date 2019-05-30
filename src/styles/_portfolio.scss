@@ -1,0 +1,13 @@
+.portfolio {
+    ul.nav li a {
+        color: black;
+        cursor: pointer;
+        background: rgba(0,0,0,0.2);
+        margin-right: 6px;
+        border-radius: 5px;
+
+        &.portfolio-active-link {
+            background: #fff;
+        }
+    }
+}

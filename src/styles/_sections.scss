@@ -1,0 +1,29 @@
+@import "./variables";
+.header {
+  background: $purple;
+  color: white;
+  padding: 200px;
+  a {
+    font-size: 25px;
+  }
+}
+
+.services {
+  background: $green;
+  color: white;
+  padding: 80px;
+}
+
+.social-media {
+  color: white;
+  background: gray;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: 2px;
+  padding: 0 5px !important;
+  &:hover {
+    color: $blue;
+  }
+}
